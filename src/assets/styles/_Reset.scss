@@ -1,0 +1,179 @@
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 8px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #2a3042 !important;
+  border-radius: 20px;
+  border: none;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 1px;
+  margin-left: -15px;
+  // max-height: 480px;
+  overflow-y: scroll;
+  // background-color: #ffffff;
+}
+.content-wrapper {
+  min-height: 480px;
+  margin-right: 0px;
+  margin-left: 75px;
+  overflow: visible;
+}
+.App,
+.sidebar-icon-only {
+  overflow: visible;
+
+  min-height: 480px;
+  /* display: -webkit-flex; */
+  display: flex;
+  position: absolute;
+  // position: -webkit-sticky;
+  flex-direction: column;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  height: auto;
+  //height: 115px !important;
+  font-family: "Montserrat", sans-serif;
+}
+a:hover {
+  cursor: pointer;
+  text-decoration: none;
+}
+.p-0 {
+  padding: 0 !important;
+}
+.fixed-top {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+.flex-row {
+  flex-direction: row !important;
+}
+.navbar {
+  .navbar-menu-wrapper {
+    .navbar-nav {
+      flex-direction: row !important;
+    }
+  }
+}
+.d-flex {
+  display: flex !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.justify-content-center {
+  justify-content: center !important;
+}
+.align-items-center {
+  align-items: center !important;
+}
+.justify-content-lg-start {
+  justify-content: flex-start !important;
+}
+
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.flex-column {
+  flex-direction: column !important;
+}
+.menu-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+  margin-right: 1.125rem;
+  color: #8c909a;
+}
+.menu-arrow {
+  margin-left: auto;
+}
+.nav-link {
+  cursor: pointer;
+}
+article {
+  display: block;
+}
+aside {
+  display: block;
+}
+figcaption {
+  display: block;
+}
+figure {
+  display: block;
+}
+footer {
+  display: block;
+}
+header {
+  display: block;
+}
+hgroup {
+  display: block;
+}
+main {
+  display: block;
+}
+nav {
+  display: block;
+}
+section {
+  display: block;
+}
+
+ul {
+  li {
+    line-height: 1.8;
+  }
+}
+ol {
+  li {
+    line-height: 1.8;
+  }
+}
+dl {
+  li {
+    line-height: 1.8;
+  }
+}
+
+.menu-icon .badge {
+  position: absolute;
+  top: 12px;
+}
+.badge-danger {
+  color: #fff;
+  background-color: #f46a6a;
+}
+.badge-pill {
+  padding-right: 0.6em;
+  padding-left: 0.6em;
+  border-radius: 10rem;
+}
+.badge {
+  display: inline-block;
+  padding: 0.2em 0.2em;
+  font-size: 63%;
+  font-weight: 500;
+  line-height: 1;
+  text-align: center;
+  border-radius: 0.25rem;
+}
