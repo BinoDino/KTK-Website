@@ -37,7 +37,7 @@ class BoxElement extends React.Component<{title:string, icon:string, w:string, h
         }else{
             tab.push(<div key={this.props.keyVal + "-dark"} className={this.props.bg + " col-h col-lg-3 mt-lg-3 mb-3 mb-lg-0 border border-dark bg-dark text-white"} onMouseLeave={this.handleMouseOut} onClick={this.handleMouseOut}>
                         <div className="d-flex h-100 justify-content-center">
-                            <div className=" px-2 align-self-center position-absolute">
+                            <div className=" px-2 align-self-center">
                                 <p className="text-center mt-3 mb-3">{this.props.techs}</p>
                                 <hr className="mx-auto w-75"/>
                                 <p className="text-center mt-3 mb-3">{this.props.expl}</p>
